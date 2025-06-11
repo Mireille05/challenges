@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style> 
+        .textColor {
+            color:red;
+
+
+        }
+        #p1 {
+            text-align: center;
+        }
+        #ul1 {
+            text-decoration-line: underline;
+        }
+        
+        
+        
+    </style>
+    
+</head>
+
+<body>
+    <p class="textColor" id="p1"> 
+        today is the day the Lord has made.
+
+    </p>
+
+   <!-- to list -->
+    <ul class="textColor" id="ul1">   
+        <li>html</li>
+        <li>css</li>
+        <li>today</li>
+    </ul>
+
+    <ul class="textColor" id="ul2">
+        <li>html</li>
+        <li>css</li>
+        <li>today</li>
+    </ul>
+
+    <script>
+       let element = document.getElementById("p1")
+
+        console.log(element.id);
+        console.log(element.innerHTML); //to get the value inside the tag
+        
+        
+    </script>
+    
+</body>
+
+</html>
